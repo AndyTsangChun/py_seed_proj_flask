@@ -10,7 +10,7 @@ TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'web')
 # static set for .css .js and other resources
 STATIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'web')
 
-print(TEMPLATE_DIR, STATIC_DIR)
+
 
 # init flask
 from flask import Flask,request
@@ -18,7 +18,7 @@ from flask import Flask,request
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 app.config.from_object(Config)
 app.config.update(TEMPLATES_AUTO_RELOAD = True, SEND_FILE_MAX_AGE_DEFAULT=0)
-#app.config['SECRET_KEY'] = 'my-key'
+app.config['SECRET_KEY'] = 'my-key'
 
 @app.after_request
 def add_header(response):
@@ -29,3 +29,5 @@ def add_header(response):
 
 # All controller must be import after init Flask()
 from .common.appController import AppController
+# Remeber to import @app.route function 
+from .common import controller
