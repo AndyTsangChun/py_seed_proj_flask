@@ -1,6 +1,6 @@
 # Flask Seed Project
 
-Flask - Python web development framework Seed Project
+Flask - Python web development framework Seed Project  
 This project doesn't include example of DB connection (mySQL or Mongo)
 
 ## Getting Started
