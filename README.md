@@ -30,19 +30,16 @@ The following will be shown if run sucessfully
  * Debugger is active!
  * Debugger PIN: 325-691-956
 ```
-Run the followings in a browser for three basic demo:
-**Case 1**
-Normal route for html templates
+Run the followings in a browser for three basic demo:  
+**Case 1** - Normal route for html templates
 ```
 http://127.0.0.1:8000/
 ```
-**Case 2**
-Error Code handling
+**Case 2** - Error Code handling
 ```
 http://127.0.0.1:8000/abc
 ```
-**Case 3**
-Route with interaction with our python module
+**Case 3** - Route with interaction with our python module
 ```
 http://127.0.0.1:8000/requestCore
 ```
