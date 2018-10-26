@@ -1,6 +1,7 @@
-# <Project Name>
+# Flask Seed Project
 
-<Proj Desc>
+Flask - Python web development framework Seed Project
+This project doesn't include example of DB connection (mySQL or Mongo)
 
 ## Getting Started
 
@@ -8,49 +9,51 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-All dependency listed [here](<DEPENDENCY LINK>)
+All dependency listed [here](https://github.com/AndyTsangChun/py_seed_project/blob/master/requirements.txt)
 
 ```
 pip install -r requirements.txt
 ```
 Key dependency version:
-Tensorflow >= 1.2
-
-### Installing
-
-<how to install?>
+Flask >= 0.12.2
 
 ### Usages
 Example:
 ```
-<how to use?>
+python app.py
 ```
 
-## Running the tests
+The following will be shown if run sucessfully
+```
+ * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 325-691-956
+```
+Run the followings in a browser for three basic demo:
+**Case 1**
+Normal route for html templates
+```
+http://127.0.0.1:8000/
+```
+**Case 2**
+Error Code handling
+```
+http://127.0.0.1:8000/abc
+```
+**Case 3**
+Route with interaction with our python module
+```
+http://127.0.0.1:8000/requestCore
+```
 
-You can run the unittest on different first before installing this library
-For Example to test FaceCore
-```
-<any test?>
-```
 ## Built With
 
-* [Title1](link1) - Desc1
+* [Flask](http://flask.pocoo.org/) - A micro web framework written in Python.
 
 ## Change Log
-Please check from [here](<CHANGELOG LINK>)
-
-## Known Issue
-1. ...
+Please check from [here](https://github.com/AndyTsangChun/py_seed_project/blob/master/CHANGELOG.md)
 
 ## Authors
 
-* **Name** - *Initial work* - Desc
-
-## License
-
-2018, HungryTech Limited, All Rights Reserved
-
-## Acknowledgments
-
-* [Title1](link1) - Desc1
+* **Andy Tsang** - *Initial work* - [Personal Web](https://andytsangchun.github.io/)

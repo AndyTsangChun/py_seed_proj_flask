@@ -30,4 +30,6 @@ def add_header(response):
 # All controller must be import after init Flask()
 from .common.appController import AppController
 # Remeber to import @app.route function 
-from .common import controller
+from .common import defaultController
+from .common import errorController
+from .common import moduleController
