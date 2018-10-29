@@ -9,12 +9,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-All dependency listed [here](https://github.com/AndyTsangChun/py_seed_project/blob/master/requirements.txt)
+All dependency listed [here](https://github.com/AndyTsangChun/py_seed_project_flask/blob/master/requirements.txt)
 
 ```
 pip install -r requirements.txt
 ```
 Key dependency version:
+pyutil>=0.0.1
 Flask >= 0.12.2
 
 ### Usages
@@ -47,9 +48,10 @@ http://127.0.0.1:8000/requestCore
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - A micro web framework written in Python.
+* [pyutil](https://github.com/AndyTsangChun/pyutil) - python util functions
 
 ## Change Log
-Please check from [here](https://github.com/AndyTsangChun/py_seed_project/blob/master/CHANGELOG.md)
+Please check from [here](https://github.com/AndyTsangChun/py_seed_project_flask/blob/master/CHANGELOG.md)
 
 ## Authors
 
