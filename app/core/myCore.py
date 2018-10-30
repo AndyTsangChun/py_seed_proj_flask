@@ -3,6 +3,12 @@ import datetime
 
 DT_FORMAT = "%d-%m-%Y %H:%M:%S"
 
+__author__ = "Andy Tsang"
+__credits__ = ["Andy Tsang"]
+__version__ = "0.0.0"
+__maintainer__ = "Andy Tsang"
+__email__ = "atc1992andy@gmail.com"
+
 class MyCore:
 	def __init__(self):
 		#np.random.seed(1)
