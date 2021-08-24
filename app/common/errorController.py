@@ -3,11 +3,7 @@ import os, json, datetime
 from flask import request, render_template
 from app import app
 
-__author__ = "Andy Tsang"
-__credits__ = ["Andy Tsang"]
-__version__ = "0.0.0"
-__maintainer__ = "Andy Tsang"
-__email__ = "atc1992andy@gmail.com"
+__version__ = "1.0.0"
 
 DT_FORMAT = "%d-%m-%Y %H:%M:%S"
 

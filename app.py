@@ -2,14 +2,10 @@
 import time
 import cv2
 import argparse, json
-from pyutil import basic_args, str2bool, PyLogger
+from app.util import basic_args, str2bool
 from app import AppController
 
-__author__ = "Andy Tsang"
-__credits__ = ["Andy Tsang"]
-__version__ = "0.0.0"
-__maintainer__ = "Andy Tsang"
-__email__ = "atc1992andy@gmail.com"
+__version__ = "1.0.0"
 
 def run(arg):
 	# import Setting
@@ -17,9 +13,8 @@ def run(arg):
 	with open(setting_path) as setting_buffer:
 		settings = json.loads(setting_buffer.read())
 		settings.update(vars(arg))
-	logger = PyLogger(log=True,debug=True)
 
-	app = AppController(settings=settings, logger=logger, debug=True)
+	app = AppController(settings=settings, debug=True)
 	app.start()
 
 if __name__ == "__main__":

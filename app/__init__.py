@@ -10,8 +10,6 @@ TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'web')
 # static set for .css .js and other resources
 STATIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'web')
 
-
-
 # init flask
 from flask import Flask,request
 # we init Flask app here to allow other controller to easy access
